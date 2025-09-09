@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vfs>
+    <dir name="home">
+        <dir name="user">
+            <file name="readme.txt">Welcome=</file>
+            <file name="notes.txt">Notes file==</file>
+        </dir>
+    </dir>
+    <dir name="etc">
+        <file name="config.conf">config=</file>
+    </dir>
+</vfs>

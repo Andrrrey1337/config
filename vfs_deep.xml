@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vfs>
+    <dir name="root">
+        <dir name="home">
+            <dir name="alice">
+                <dir name="Documents">
+                    <file name="report.txt">Report</file>
+                    <dir name="Projects">
+                        <file name="main.py">print("Hello")=</file>
+                        <dir name="tests">
+                            <file name="test.py">test</file>
+                        </dir>
+                    </dir>
+                </dir>
+            </dir>
+        </dir>
+        <dir name="tmp">
+            <file name="log.txt">log==</file>
+        </dir>
+    </dir>
+</vfs>
