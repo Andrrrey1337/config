@@ -106,7 +106,6 @@ def script(script_path):
             continue
         line = line.strip()
         print(get_prompt() + line)
-
         try:
             cmd, args = parser(line)
             if not execute_command(cmd, args):
