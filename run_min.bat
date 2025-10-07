@@ -1,0 +1,1 @@
+python main.py --vfs-path vfs_min.xml --startup-script test_vfs.txt
