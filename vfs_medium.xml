@@ -2,11 +2,11 @@
 <vfs>
     <dir name="home">
         <dir name="user">
-            <file name="readme.txt">Welcome=</file>
-            <file name="notes.txt">Notes file==</file>
+            <file name="readme.txt">Welcome</file>
+            <file name="notes.txt">Notes file</file>
         </dir>
     </dir>
     <dir name="etc">
-        <file name="config.conf">config=</file>
+        <file name="config.conf">config</file>
     </dir>
 </vfs>

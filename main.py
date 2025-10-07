@@ -31,10 +31,6 @@ def parse_vfs(node, path):
             parse_vfs(child, new_path)
         elif child.tag == "file":
             content = child.text
-            try:
-                content = base64.b64decode(content).decode("utf-8")
-            except Exception:
-                content = "Ошибка декодирования"
             vfs_data[new_path] = content
 
 
@@ -100,7 +96,6 @@ def script(script_path):
     except Exception as e:
         print(f"Ошибка чтения скрипта {script_path} : {e}", file=sys.stderr)
         sys.exit(1)
-
     for line in f:
         if not line or line.startswith("#"):
             continue

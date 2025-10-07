@@ -1,1 +1,1 @@
-python3 main.py --vfs-path vfs_deep.xml --startup-script test_vfs.txt
+python main.py --vfs-path vfs_deep.xml --startup-script test_vfs.txt

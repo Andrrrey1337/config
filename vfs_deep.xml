@@ -6,7 +6,7 @@
                 <dir name="Documents">
                     <file name="report.txt">Report</file>
                     <dir name="Projects">
-                        <file name="main.py">print("Hello")=</file>
+                        <file name="main.py">print("Hello")</file>
                         <dir name="tests">
                             <file name="test.py">test</file>
                         </dir>
@@ -15,7 +15,7 @@
             </dir>
         </dir>
         <dir name="tmp">
-            <file name="log.txt">log==</file>
+            <file name="log.txt">log</file>
         </dir>
     </dir>
 </vfs>
